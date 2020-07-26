@@ -26,6 +26,7 @@ class AddGroup(unittest.TestCase):
         wd.find_element_by_name("new").click()
         wd.find_element_by_name("group_name").click()
         wd.find_element_by_name("group_name").clear()
+        wd.find_element_by_name("group_name").clear()
         wd.find_element_by_name("group_name").send_keys("Group 1")
         wd.find_element_by_name("group_header").click()
         wd.find_element_by_name("group_header").clear()
